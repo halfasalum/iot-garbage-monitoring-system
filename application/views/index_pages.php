@@ -89,7 +89,7 @@ MAIN CONTENT LAYOUT
 					<div class="content-header-item">
 						<a class="link-effect font-w700" href="index.html">
 							<i class="si si-layers text-primary"></i>
-							<span class="font-size-xl text-dual-primary-dark">QL</span>
+							<span class="font-size-xl text-dual-primary-dark">IGMS</span>
 						</a>
 					</div>
 					<!-- END Logo -->
@@ -284,7 +284,7 @@ MAIN CONTENT LAYOUT
 				APP VERSION  <a class="font-w600" href="" target="_blank">1.0</a> | Loading <strong>{elapsed_time} s</strong>
 			</div>
 			<div class="float-left">
-				<a class="font-w600" href="" target="_blank">QUICKLOANS</a> &copy; <span><?php echo date('Y'); ?></span>
+				<a class="font-w600" href="" target="_blank">IGMS</a> &copy; <span><?php echo date('Y'); ?></span>
 			</div>
 		</div>
 	</footer>

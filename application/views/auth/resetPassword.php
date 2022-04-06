@@ -1,7 +1,7 @@
 <!-- Main Container -->
 <main id="main-container">
 	<!-- Page Content -->
-	<div class="bg-body-dark bg-pattern" style="background-image: url('assets/media/various/bg-pattern-inverse.png');">
+	<div class="bg-body-dark bg-pattern" style="background-image: url('assets/media/various/garbage.jpg');">
 		<div class="row mx-0 justify-content-center">
 			<div class="hero-static col-lg-6 col-xl-4">
 				<div class="content content-full overflow-hidden">
@@ -12,7 +12,7 @@
                         </h1>-->
 
                         <a class="link-effect font-w700" href="">
-                            <span class="font-size-xl text-primary-dark">QUICK </span><span class="font-size-xl"> LOANS</span>
+                            <span class="font-size-xl text-primary-dark">IOT GARBAGE</span><span class="font-size-xl"> MONITORING SYSTEM</span>
                         </a>
 
 

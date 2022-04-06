@@ -24,13 +24,13 @@ class Home extends Base{
             $this->page_data['content']			= 'company.php';
         }
         $this->page_data['page']			= 'common/dashboard.php';
-        $this->page_data['incomplete']		= self::inCompletedLoan();
+       /* $this->page_data['incomplete']		= self::inCompletedLoan();
         $this->page_data['completed']	    = self::loanCompleted();
         $this->page_data['overdue']		    = self::isOverDueLoan();
         $this->page_data['statistics']      = self::statistics();
         $this->page_data['todayChart']      = self::todayChart();
         $this->page_data['monthChart']      = self::monthChart();
-        $this->page_data['pastSeven']       = self::pastSeven();
+        $this->page_data['pastSeven']       = self::pastSeven();*/
 		$this->renderPage($this->page_data);
 	}
 

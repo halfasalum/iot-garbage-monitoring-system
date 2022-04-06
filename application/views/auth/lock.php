@@ -2,18 +2,18 @@
             <!-- Main Container -->
             <main id="main-container">
                 <!-- Page Content -->
-                <div class="bg-image" style="background-image: url('assets/media/photos/photo34@2x.jpg');">
+                <div class="bg-image" style="background-image: url('assets/media/photos/garbage.jpg');">
                     <div class="row mx-0 bg-black-op">
                         <div class="hero-static col-md-6 col-xl-8 d-none d-md-flex align-items-md-end">
                             <div class="p-30 invisible" data-toggle="appear">
                                 <p class="font-size-h3 font-w600 text-white">
-                                    Manage your customers' loans with a single click.
+                                    Lets technology leads us to free our street from garbage.
                                 </p>
                                 <p class="font-italic text-white-op">
                                     APP VERSION  <a class="font-w600" href="" target="_blank">1.0</a> | Loading <strong>{elapsed_time} s</strong>
                                 </p>
                                 <p class="font-italic text-white-op">
-                                    <a class="font-w600" href="" target="_blank">QUICKLOANS</a> &copy; <span><?php echo date('Y'); ?></span>
+                                    <a class="font-w600" href="" target="_blank">IGMS</a> &copy; <span><?php echo date('Y'); ?></span>
                                 </p>
                             </div>
                         </div>
@@ -23,7 +23,7 @@
                                 <div class="px-30 py-10">
                                     <a class="link-effect font-w700" href="<?php echo site_url('Auth'); ?>" >
                                         <i class="si si-fire"></i>
-                                        <span class="font-size-xl text-primary-dark">QUICK</span><span class="font-size-xl">LOANS</span>
+                                        <span class="font-size-xl text-primary-dark">IOT GARBAGE</span><span class="font-size-xl"> MONITORING SYSTEM</span>
                                     </a>
                                     <h1 class="h4 font-w700 mt-30 mb-10">Welcome back, <?php echo $this->session->userdata('fullName'); ?></h1>
                                     <h2 class="h5 font-w400 text-muted mb-0">Please enter your password</h2>
