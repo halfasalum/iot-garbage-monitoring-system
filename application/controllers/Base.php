@@ -48,6 +48,16 @@ class Base extends CI_Controller
     }
 
     /*
+     * receiving updates from device
+     * */
+
+    public function trashState($number = 0, $status = 1){
+        $condition          = array('device_number'=>$number);
+        $data               = array('device_status'=>$status);
+        $this->updateV2('tbl_trash',$condition,$data);
+    }
+
+    /*
      * Phone format
      */
 

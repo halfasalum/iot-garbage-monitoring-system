@@ -4,7 +4,7 @@
 			<!-- Row #1 -->
 			<div class="col-md-12">
                 <iframe
-                        width="600"
+                        width="100%"
                         height="450"
                         style="border:0"
                         loading="lazy"
