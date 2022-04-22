@@ -251,7 +251,8 @@ class Manage extends Base{
             $this->form_validation->set_rules('pass','password','trim|required|matches[repass]|min_length[8]');
             $this->form_validation->set_rules('repass','re-password','trim|required');
             if ($this->form_validation->run()){
-                $data						= array('password'=>self::pass_encrypt($userId,$this->input->post('pass')));
+                $pass = $userId . $this->input->post('pass');
+                $data						= array('password'=>password_hash($pass, PASSWORD_BCRYPT));
                 $condition                  = array('user_id'=>$userId);
                 $this->updateV2('tbl_users',$condition,$data);
                 $this->log('UPDATE',"has update user with id : $userId password");
