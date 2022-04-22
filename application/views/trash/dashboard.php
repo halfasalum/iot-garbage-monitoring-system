@@ -17,7 +17,7 @@
 					</div>
 					<!-- END Alert -->
 				<?php endif; ?>
-                <?php if (in_array(8,$this->session->userdata('controls'))){ ?>
+
 				<!-- VPS -->
 				<div class="d-flex justify-content-between align-items-center mt-50 mb-20">
 					<h2 class="h4 font-w300 mb-0">Trashes (<?php echo sizeof($trashes); ?>)</h2>
@@ -25,7 +25,7 @@
 						<i class="fa fa-plus mr-1"></i> Add Trash
 					</button>
 				</div>
-                <?php } ?>
+
 				<div id="cb-add-server" class="block bg-body-light animated fadeIn d-none">
 					<div class="block-header">
 						<h3 class="block-title">Add a new trash</h3>
@@ -54,23 +54,17 @@
                                     <input type="text" class="form-control" id="example-hosting-name" name="number" placeholder="Trash number" required>
                                 </div>
 								<div class="col-md-2">
-									<?php
-									if (in_array(8,$this->session->userdata('controls'))){
-									?>
+
 									<button type="submit" name="trash" class="btn btn-alt-success btn-block">
 										<i class="fa fa-plus mr-1"></i> Save
 									</button>
-									<?php
-									}
-									?>
+
 								</div>
 							</div>
 						<?php echo form_close(); ?>
 					</div>
 				</div>
-				<?php
-				if (in_array(5,$this->session->userdata('controls'))){
-				?>
+
 				<!-- Full Table -->
 				<div class="table-responsive">
 					<table class="table table-striped table-vcenter js-dataTable-full" style="font-size: 11px !important;" >
@@ -117,9 +111,7 @@
 					</table>
 				</div>
 				<!-- END Full Table -->
-				<?php
-				}
-				?>
+			
 				<!-- END VPS -->
 
 			</div>
