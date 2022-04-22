@@ -92,10 +92,10 @@
 									</td>
 									<td class="text-center">
 
-										<a class="btn btn-sm btn-outline-secondary btn-rounded mr-5 my-5" href="javascript:void(0)" id="actionModal" d="<?php echo $trash->device_id ?>" o="1" f="deviceMap" c="Trash">
-											<i class="fa fa-map-marker mr-5"></i> Map
+										<a class="mr-5 my-5" href="javascript:void(0)" id="actionModal" d="<?php echo $trash->device_id ?>" o="1" f="deviceMap" c="Trash">
+											<i class="fa fa-map-marker mr-5"></i> View Map
 										</a>
-								
+
 									</td>
 								</tr>
 								<?php
