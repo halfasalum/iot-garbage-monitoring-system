@@ -91,15 +91,11 @@
 										<?php echo $trash->device_state.'%'; ?>
 									</td>
 									<td class="text-center">
-								<?php
-								if (in_array(6,$this->session->userdata('controls'))){
-									?>
+
 										<a class="btn btn-sm btn-outline-secondary btn-rounded mr-5 my-5" href="javascript:void(0)" id="actionModal" d="<?php echo $trash->device_id ?>" o="1" f="deviceMap" c="Trash">
 											<i class="fa fa-map-marker mr-5"></i> Map
 										</a>
-									<?php
-								}
-									?>
+								
 									</td>
 								</tr>
 								<?php
@@ -111,7 +107,7 @@
 					</table>
 				</div>
 				<!-- END Full Table -->
-			
+
 				<!-- END VPS -->
 
 			</div>
