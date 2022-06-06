@@ -90,9 +90,9 @@ class Base extends CI_Controller
         $this->page_data['header'] = 'common/__header.php';
         $this->page_data['footer'] = 'common/__footer.php';
         if ($this->router->fetch_class() == 'Auth') {
-            $this->load->view('index_auth', $this->page_data);
+            $this->load->view('v2/index_auth', $this->page_data);
         } else {
-            $this->load->view('index_pages', $this->page_data);
+            $this->load->view('v2/index_pages', $this->page_data);
         }
     }
 
