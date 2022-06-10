@@ -31,6 +31,6 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/v2/'); ?>css/custom.css">
 
     <!-- Head Libs -->
-    <script src="<?php echo base_url('assets/v2/'); ?>vendor/modernizr/modernizr.js"></script>
+    <script src="<?php echo base_url('assets/v2/vendor/modernizr/modernizr.js'); ?>"></script>
 
 </head>

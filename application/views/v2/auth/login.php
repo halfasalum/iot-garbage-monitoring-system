@@ -32,7 +32,7 @@
                             <a href="pages-recover-password.html" class="float-end">Lost Password?</a>
                         </div>
                         <div class="input-group">
-                            <input name="pwd" type="password" class="form-control form-control-lg" />
+                            <input name="password" type="password" class="form-control form-control-lg" />
                             <span class="input-group-text">
 										<i class="bx bx-lock text-4"></i>
 									</span>

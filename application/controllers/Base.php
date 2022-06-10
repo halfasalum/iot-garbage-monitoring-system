@@ -86,12 +86,15 @@ class Base extends CI_Controller
     {
         $role = $this->session->userdata('user_role');
         $this->page_data['nav'] = '';
-        $this->page_data['nav'] = 'nav/' . $this->session->userdata('nav') . '.php';
+        //$this->page_data['nav'] = 'v2/nav/' . $this->session->userdata('nav') . '.php';
         $this->page_data['header'] = 'common/__header.php';
         $this->page_data['footer'] = 'common/__footer.php';
         if ($this->router->fetch_class() == 'Auth') {
             $this->load->view('v2/index_auth', $this->page_data);
         } else {
+            $this->page_data['top'] = 'common/__top.php';
+            $this->page_data['asideLeft'] = 'common/__asideLeft.php';
+            $this->page_data['asideRight'] = 'common/__asideRight.php';
             $this->load->view('v2/index_pages', $this->page_data);
         }
     }
