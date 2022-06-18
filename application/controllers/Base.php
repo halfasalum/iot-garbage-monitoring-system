@@ -554,6 +554,7 @@ class Base extends CI_Controller
                 $condition = array('module_id' => $module, 'module_status' => 1);
                 $moduleDetail = $this->get('tbl_module', $condition, null);
                 if ($moduleDetail) {
+
                     $role .= '
 			<div class="col-6 col-md-4 col-xl-2">
 				<a class="block block-link-shadow text-center" href="' . site_url($moduleDetail->module_class) . '" data-toggle="popover" title="' . $moduleDetail->module_desc . ' Info" data-placement="top" data-content="' . $moduleDetail->module_tooltip . '" >
